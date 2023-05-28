@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28E66E072A2340C800B61052 /* StrangeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E66E062A2340C800B61052 /* StrangeCalculatorTests.swift */; };
+		28E66E142A23487C00B61052 /* LottoMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E66E132A23487C00B61052 /* LottoMachineTests.swift */; };
 		3417716B26DB149100108680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417716A26DB149100108680 /* AppDelegate.swift */; };
 		3417716D26DB149100108680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417716C26DB149100108680 /* SceneDelegate.swift */; };
 		3417716F26DB149100108680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417716E26DB149100108680 /* ViewController.swift */; };
@@ -17,7 +19,28 @@
 		3417718526DB150100108680 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417718426DB150100108680 /* StrangeCalculator.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		28E66E082A2340C800B61052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3417715F26DB149100108680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3417716626DB149100108680;
+			remoteInfo = UnitTestSample;
+		};
+		28E66E152A23487C00B61052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3417715F26DB149100108680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3417716626DB149100108680;
+			remoteInfo = UnitTestSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		28E66E042A2340C800B61052 /* StrangeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrangeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E66E062A2340C800B61052 /* StrangeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculatorTests.swift; sourceTree = "<group>"; };
+		28E66E112A23487C00B61052 /* LottoMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E66E132A23487C00B61052 /* LottoMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachineTests.swift; sourceTree = "<group>"; };
 		3417716726DB149100108680 /* UnitTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3417716A26DB149100108680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3417716C26DB149100108680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +54,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		28E66E012A2340C800B61052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E66E0E2A23487C00B61052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3417716426DB149100108680 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +78,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28E66E052A2340C800B61052 /* StrangeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				28E66E062A2340C800B61052 /* StrangeCalculatorTests.swift */,
+			);
+			path = StrangeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		28E66E122A23487C00B61052 /* LottoMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				28E66E132A23487C00B61052 /* LottoMachineTests.swift */,
+			);
+			path = LottoMachineTests;
+			sourceTree = "<group>";
+		};
 		3417715E26DB149100108680 = {
 			isa = PBXGroup;
 			children = (
 				3417716926DB149100108680 /* UnitTestSample */,
+				28E66E052A2340C800B61052 /* StrangeCalculatorTests */,
+				28E66E122A23487C00B61052 /* LottoMachineTests */,
 				3417716826DB149100108680 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				3417716726DB149100108680 /* UnitTestSample.app */,
+				28E66E042A2340C800B61052 /* StrangeCalculatorTests.xctest */,
+				28E66E112A23487C00B61052 /* LottoMachineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +141,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		28E66E032A2340C800B61052 /* StrangeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E66E0C2A2340C800B61052 /* Build configuration list for PBXNativeTarget "StrangeCalculatorTests" */;
+			buildPhases = (
+				28E66E002A2340C800B61052 /* Sources */,
+				28E66E012A2340C800B61052 /* Frameworks */,
+				28E66E022A2340C800B61052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E66E092A2340C800B61052 /* PBXTargetDependency */,
+			);
+			name = StrangeCalculatorTests;
+			productName = StrangeCalculatorTests;
+			productReference = 28E66E042A2340C800B61052 /* StrangeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28E66E102A23487C00B61052 /* LottoMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E66E172A23487C00B61052 /* Build configuration list for PBXNativeTarget "LottoMachineTests" */;
+			buildPhases = (
+				28E66E0D2A23487C00B61052 /* Sources */,
+				28E66E0E2A23487C00B61052 /* Frameworks */,
+				28E66E0F2A23487C00B61052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E66E162A23487C00B61052 /* PBXTargetDependency */,
+			);
+			name = LottoMachineTests;
+			productName = LottoMachineTests;
+			productReference = 28E66E112A23487C00B61052 /* LottoMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3417716626DB149100108680 /* UnitTestSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3417717B26DB149A00108680 /* Build configuration list for PBXNativeTarget "UnitTestSample" */;
@@ -107,9 +200,17 @@
 		3417715F26DB149100108680 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					28E66E032A2340C800B61052 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3417716626DB149100108680;
+					};
+					28E66E102A23487C00B61052 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3417716626DB149100108680;
+					};
 					3417716626DB149100108680 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -129,11 +230,27 @@
 			projectRoot = "";
 			targets = (
 				3417716626DB149100108680 /* UnitTestSample */,
+				28E66E032A2340C800B61052 /* StrangeCalculatorTests */,
+				28E66E102A23487C00B61052 /* LottoMachineTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		28E66E022A2340C800B61052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E66E0F2A23487C00B61052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3417716526DB149100108680 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +264,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		28E66E002A2340C800B61052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E66E072A2340C800B61052 /* StrangeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E66E0D2A23487C00B61052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E66E142A23487C00B61052 /* LottoMachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3417716326DB149100108680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +293,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28E66E092A2340C800B61052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3417716626DB149100108680 /* UnitTestSample */;
+			targetProxy = 28E66E082A2340C800B61052 /* PBXContainerItemProxy */;
+		};
+		28E66E162A23487C00B61052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3417716626DB149100108680 /* UnitTestSample */;
+			targetProxy = 28E66E152A23487C00B61052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3417717026DB149100108680 /* Main.storyboard */ = {
@@ -181,6 +327,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		28E66E0A2A2340C800B61052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EtialMoon.StrangeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitTestSample";
+			};
+			name = Debug;
+		};
+		28E66E0B2A2340C800B61052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EtialMoon.StrangeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitTestSample";
+			};
+			name = Release;
+		};
+		28E66E182A23487C00B61052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EtialMoon.LottoMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitTestSample";
+			};
+			name = Debug;
+		};
+		28E66E192A23487C00B61052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EtialMoon.LottoMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitTestSample";
+			};
+			name = Release;
+		};
 		3417717926DB149A00108680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -336,6 +570,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28E66E0C2A2340C800B61052 /* Build configuration list for PBXNativeTarget "StrangeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E66E0A2A2340C800B61052 /* Debug */,
+				28E66E0B2A2340C800B61052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E66E172A23487C00B61052 /* Build configuration list for PBXNativeTarget "LottoMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E66E182A23487C00B61052 /* Debug */,
+				28E66E192A23487C00B61052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3417716226DB149100108680 /* Build configuration list for PBXProject "UnitTestSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
